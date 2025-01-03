@@ -5,7 +5,7 @@ use drawing::draw;
 
 type Float = f32;
 
-const SYMBOLS: &'static [char] = &[' ', '.', '·', '*', '+', 'x', '$', '#', '%'];
+const SYMBOLS: &[char] = &[' ', '.', '·', '*', '+', 'x', '$', '#', '%'];
 const MAX_ITER: usize = 1000;
 
 fn main() {
